@@ -25,7 +25,7 @@ body {
     color: rgba(245, 245, 245, 0.87);
     line-height: 1.6;
     font-size: 16px;
-    max-width: 768px;
+    max-width: 1536px;
     margin: 0 auto;
     padding: 0 1rem; /* Keeps some breathing space on mobile */
 }
