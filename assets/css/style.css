@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+main.container {
+    flex: 1;
+    padding-top: 0;
+    margin-top: 0;
+}
 
 html, body {
     height: 100%;
@@ -20,14 +25,16 @@ body {
     color: rgba(245, 245, 245, 0.87);
     line-height: 1.6;
     font-size: 16px;
-    padding: 0 1rem;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 1rem; /* Keeps some breathing space on mobile */
 }
 
 .container {
-    max-height: 10px;
     max-width: 768px;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 /* Typography */
@@ -204,4 +211,9 @@ header {
 header .container {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+}
+
+.post-preview {
+    max-width: 700px;
+    margin: 1rem auto;
 }
