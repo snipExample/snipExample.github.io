@@ -8,6 +8,7 @@
 main.container {
     flex: 1;
 }
+
 html, body {
     height: 100%;
     margin: 0;
@@ -34,7 +35,7 @@ body {
 /* Typography */
 h1, h2 {
     color: #ffffff;
-    margin-bottom: 1rem;
+    margin-bottom: 0.2rem;
     font-weight: 600;
     text-align: center;
 }
@@ -48,11 +49,10 @@ p {
 
 /* Navigation */
 nav {
-    margin-bottom: 0; /* You already reduced this, just make sure it's not adding more */
+    margin-bottom: 0;
     padding-bottom: 0;
     text-align: center;
-  }
-  
+}
 
 .nav-links {
     list-style: none;
@@ -60,8 +60,9 @@ nav {
     justify-content: center;
     gap: 1.25rem;
     flex-wrap: wrap;
-    margin: 0; /* remove any margin on nav links */
+    margin: 0;
     padding: 0.25rem 0;
+    margin-top: 0;
 }
 
 .nav-links a {
@@ -77,9 +78,8 @@ nav {
 
 /* Intro Section */
 .intro {
-    margin: 1rem 0 2rem; /* Or even 0.5rem if you want it super close */
+    margin: 1rem 0 2rem;
 }
-
 
 .btn {
     display: inline-block;
@@ -137,69 +137,58 @@ footer a:hover {
     color: #ffffff;
 }
 
-
-
-  
-  .nav-links {
-    margin-top: 0; /* Remove margin if added */
-  }
-  
-  main {
+main {
     padding-top: 0;
     margin-top: 0;
-  }
-  
-  .latest-posts h2 {
+}
+
+.latest-posts h2 {
     margin-top: 2rem;
     margin-bottom: 1.5rem;
     font-size: 1.5rem;
-  }
-  
-  .post-list {
+}
+
+.post-list {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-  }
-  
-  .post-box {
+}
+
+.post-box {
     background-color: #1a1a1a;
     padding: 1rem 1.5rem;
     border: 1px solid #333;
     border-radius: 12px;
     transition: transform 0.2s ease, border-color 0.2s ease;
-  }
-  
-  .post-box:hover {
+}
+
+.post-box:hover {
     transform: scale(1.02);
     border-color: #555;
-  }
-  
-  .post-box a {
+}
+
+.post-box a {
     font-size: 1.1rem;
     font-weight: 500;
     color: #4da6ff;
     text-decoration: none;
-  }
-  
-  .post-box a:hover {
+}
+
+.post-box a:hover {
     text-decoration: underline;
-  }
-  
-  .post-box .post-date {
+}
+
+.post-box .post-date {
     font-size: 0.85rem;
     color: #888;
     margin-top: 0.2rem;
-  }
-  
-
+}
 
 main p:first-of-type {
-    margin-top: 0.5rem; /* pull it closer to nav */
-  }
+    margin-top: 0.5rem;
+}
 
-  /* Header styles */
 header {
     margin-bottom: 0;
     padding-bottom: 0;
 }
-  
