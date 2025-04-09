@@ -1,12 +1,7 @@
 ---
 layout: post
-title:  "GAN Architectures on the RetinaMNIST Dataset: A Deep Dive"
+title:  "Exploring GAN Architectures on the RetinaMNIST Dataset: A Deep Dive"
 date:   2025-04-09
----
-# Exploring GAN Architectures on the RetinaMNIST Dataset: A Deep Dive
-
-**Posted on April 9, 2025**
-
 ---
 
 ## Introduction
