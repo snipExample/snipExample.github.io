@@ -19,7 +19,7 @@ At its core, a GAN consists of two competing networks:
 - **Discriminator (Critic):** Evaluates images to determine if they are real (from the dataset) or generated.
 
 <div style="text-align: center;">
-    <img src="assets/gans/GANs_architecture.png" alt="GANs_architecture" width="750" />
+    <img src="/assets/gans/GANs_architecture.png" alt="GANs_architecture" width="750" />
 </div>
 
 This setup forms a zero-sum game where each network's improvement forces the other to adapt, leading to increasingly realistic outputs over time.
@@ -41,7 +41,7 @@ The **RetinaMNIST** dataset is a subset of the MedMNIST collection and is specif
 - **Image Format:** Grayscale images with a single channel (dimensions 28×28×1).
 
 <div style="text-align: center;">
-    <img src="assets/gans/RetinaMNIST.png" alt="RetinaMNIST_Dataset" width="750" />
+    <img src="/assets/gans/RetinaMNIST.png" alt="RetinaMNIST_Dataset" width="750" />
 </div>
 
 This dataset provides a challenging yet manageable testbed for comparing GAN architectures, particularly in the context of medical image synthesis.
@@ -109,9 +109,9 @@ The experimental results were as follows:
 - **WGAN-GP:** IS ≈ 1.00, FID ≈ 333.25
 
 <div style="text-align: center;">
-    <img src="assets/gans/c-loss.png" alt="c-loss" width="750" style="margin-bottom: 15px;"/>
-    <img src="assets/gans/d-loss.png" alt="d-loss" width="750" style="margin-bottom: 15px;"/>
-    <img src="assets/gans/g-loss.png" alt="g-loss" width="750"/>
+    <img src="/assets/gans/c-loss.png" alt="c-loss" width="750" style="margin-bottom: 15px;"/>
+    <img src="/assets/gans/d-loss.png" alt="d-loss" width="750" style="margin-bottom: 15px;"/>
+    <img src="/assets/gans/g-loss.png" alt="g-loss" width="750"/>
 </div>
 
 ### Insights:
