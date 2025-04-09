@@ -18,7 +18,7 @@ At its core, a GAN consists of two competing networks:
 - **Generator:** Crafts synthetic images (or other data) from a random noise vector.
 - **Discriminator (Critic):** Evaluates images to determine if they are real (from the dataset) or generated.
 
-![GAN Architecture](./GANs_architecture.png)
+![GAN Architecture](/assets/gans/GANs_architecture.png)
 
 This setup forms a zero-sum game where each network's improvement forces the other to adapt, leading to increasingly realistic outputs over time.
 
@@ -44,7 +44,7 @@ The **RetinaMNIST** dataset is a subset of the MedMNIST collection and is specif
 - **Preprocessing:** Pixel values are normalized to the range **[-1, 1]**  
 - **Image Format:** Grayscale images with a single channel (dimensions 28×28×1)
 
-![RetinaMNIST Dataset](./RetinaMNIST.png)
+![RetinaMNIST Dataset](/assets/gans/RetinaMNIST.png)
 
 This dataset provides a challenging yet manageable testbed for comparing GAN architectures, particularly in the context of medical image synthesis.
 
@@ -123,10 +123,9 @@ Experimental results:
 
 ### Loss Curve Visualizations
 
-![Critic Loss](./c-loss.png)  
-![Discriminator Loss](./d-loss.png)  
-![Generator Loss](./g-loss.png)
-
+![C Loss](/assets/gans/c-loss.png)
+![Discriminator Loss](/assets/gans/d-loss.png)
+![Generator Loss](/assets/gans/g-loss.png)
 ---
 
 ### Insights
