@@ -28,11 +28,6 @@ body {
     padding: 0 1rem;
 }
 
-.container {
-    max-width: 768px;
-    margin: 0 auto;
-    padding: 2rem 0;
-}
 
 /* Typography */
 h1, h2 {
