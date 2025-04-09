@@ -1,0 +1,134 @@
+/* Reset & base styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main.container {
+    flex: 1;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: #0f1419;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(245, 245, 245, 0.87);
+    line-height: 1.6;
+    font-size: 16px;
+    padding: 0 1rem;
+}
+
+.container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+/* Typography */
+h1, h2 {
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #d1d5db;
+}
+
+/* Navigation */
+nav {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #8ab4f8;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffffff;
+}
+
+/* Intro Section */
+.intro {
+    margin: 4rem 0 2rem;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.65rem 1.25rem;
+    background-color: #1da1f2;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0d8ddc;
+}
+
+/* Features Section */
+.features {
+    margin: 2rem 0;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.features li {
+    background-color: #1e2a35;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1rem;
+    color: #e5e7eb;
+}
+
+/* Footer */
+footer {
+    background-color: #0f1419;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #777;
+    border-top: 1px solid #1e2a35;
+}
+
+footer a {
+    color: #a9c9ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
