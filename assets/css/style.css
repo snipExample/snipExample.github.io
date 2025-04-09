@@ -78,8 +78,13 @@ nav {
 
 /* Intro Section */
 .intro {
-    margin: 0.25rem 0 0.5rem;
+    margin: 0;
+    padding: 0;
     border: 1px dashed red;
+}
+
+.intro p {
+    margin: 0.25rem 0;
 }
 
 .btn {
