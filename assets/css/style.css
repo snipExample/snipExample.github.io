@@ -77,9 +77,9 @@ nav {
 
 /* Intro Section */
 .intro {
-    margin: 4rem 0 2rem;
-    text-align: center;
+    margin: 1rem 0 2rem; /* Or even 0.5rem if you want it super close */
 }
+
 
 .btn {
     display: inline-block;
