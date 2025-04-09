@@ -80,6 +80,7 @@ nav {
 
 /* Intro Section */
 .intro {
+    margin-top: 1rem;
     margin: 0;
     padding: 0;
     display: flex;
@@ -202,4 +203,9 @@ main p:first-of-type {
 header {
     margin-bottom: 0;
     padding-bottom: 0;
+}
+
+header .container {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
