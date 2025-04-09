@@ -50,6 +50,7 @@ p {
 nav {
     margin-top: 1rem;
     text-align: center;
+    margin-bottom: 0.5rem; /* Reduce space below navbar */
 }
 
 .nav-links {
@@ -134,9 +135,7 @@ footer a:hover {
 }
 
 
-nav {
-    margin-bottom: 0.5rem; /* Reduce space below navbar */
-  }
+
   
   .nav-links {
     margin-top: 0; /* Remove margin if added */
