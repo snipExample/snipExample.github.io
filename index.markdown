@@ -1,17 +1,17 @@
 ---
 layout: default
-title: Your Blog Name
+title: snipExample
 ---
 
 <div class="intro">
-  <p>Hey there! 👋 Welcome to my minimalist dark-themed blog.</p>
-  <p>Here you'll find my latest thoughts, tutorials, and personal experiments. Scroll down to explore!</p>
+  <p>Hey there! 👋 Welcome to snipExample.</p>
+  <p>Concepts simplified with application based examples!</p>
 </div>
 
 <hr style="margin: 2rem 0; border: none; border-top: 1px solid #333;" />
 
 <div class="latest-posts">
-  <h2>Latest Posts</h2>
+  <h2>Latest Blogs</h2>
   <div class="post-list">
     {% for post in site.posts %}
       <div class="post-box">
