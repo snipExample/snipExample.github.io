@@ -48,6 +48,7 @@ p {
 
 /* Navigation */
 nav {
+    
     margin-top: 1rem;
     text-align: center;
     margin-bottom: 0.5rem; /* Reduce space below navbar */
@@ -59,6 +60,8 @@ nav {
     justify-content: center;
     gap: 1.25rem;
     flex-wrap: wrap;
+    margin: 0; /* remove any margin on nav links */
+    padding: 0.25rem 0;
 }
 
 .nav-links a {
@@ -142,7 +145,8 @@ footer a:hover {
   }
   
   main {
-    padding-top: 1rem; /* Pull content up a bit */
+    padding-top: 0;
+    margin-top: 0;
   }
   
   .latest-posts h2 {
@@ -187,3 +191,8 @@ footer a:hover {
     margin-top: 0.2rem;
   }
   
+
+
+main p:first-of-type {
+    margin-top: 0.5rem; /* pull it closer to nav */
+  }
